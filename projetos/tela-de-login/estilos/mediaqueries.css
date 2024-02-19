@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* TELA DE TABLET */
+    
+    section {
+        border-radius: 20px;
+        left: 0%;
+        transform: translate(0%, -50%);
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    div#esferalogin {
+        float: left;
+
+        width: 60%;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);
+
+    }
+
+    div#img {
+        background-image: url(../imagens/fundologin.jpg);
+        background-size: cover;
+        background-position: center center;
+        float: right;
+        width: 40%;
+        height: 100%;
+        
+        }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /* TELA PC/NOTEBOOK */
+
+    section {
+        border-radius: 20px;
+        left: 0%;
+        transform: translate(0%, -50%);
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    div#esferalogin {
+        float: left;
+
+        width: 60%;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);
+
+    }
+
+    div#img {
+        background-image: url(../imagens/fundologin.jpg);
+        background-size: cover;
+        background-position: center center;
+        float: right;
+        width: 40%;
+        height: 100%;
+        
+        }
+}
+
+@media screen and (min-width: 1200px) { 
+    /* GRANDES TELAS */
+
+    section {
+        border-radius: 20px;
+        left: 0%;
+        transform: translate(0%, -50%);
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    div#esferalogin {
+        float: left;
+
+        width: 50%;
+        position: relative;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%, 0%);
+
+    }
+
+    div#img {
+        background-image: url(../imagens/fundologin.jpg);
+        background-size: cover;
+        background-position: center center;
+        float: right;
+        width: 50%;
+        height: 100%;
+        
+        }
+}
