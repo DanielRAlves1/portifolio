@@ -9,9 +9,8 @@
 }
 
 html {
-    display: flex;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-image: linear-gradient(to bottom, #DAFDBA, #9AEBA3, #45C4B0, #13678A, #012030);
     background-size: cover;
     background-repeat: no-repeat;
