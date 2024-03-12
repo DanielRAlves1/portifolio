@@ -47,6 +47,7 @@ div.noticia {
     }
 
     & p {
+        margin: auto;
         text-align: left;
         width: 400px;
         line-height: 18px;
