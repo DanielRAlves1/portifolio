@@ -18,7 +18,7 @@ main {
 }
 
 div.noticia {
-    height: 200px;
+    height: 250px;
     width: 100vw;
     margin: auto;
     padding: 25px 0px;
@@ -34,8 +34,9 @@ div.noticia {
 
     & img {
         margin: auto;
+        margin-bottom: 10px;
         display: block;
-        height: 150px;
+        height: 190px;
         width: 400px;
         border-radius: 10px;
     }
